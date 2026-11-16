@@ -1,41 +1,42 @@
 <!doctype html>
-<html lang="fr">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8f5">
-  <meta name="description" content="Estimez le potentiel solaire de votre entreprise au Maroc.">
-  <title>Chams PME — Passez au solaire avec confiance</title>
+  <meta name="description" content="اكتشفوا إمكانات الطاقة الشمسية لمقاولتكم في المغرب.">
+  <title>شمس للمقاولات — طاقة شمسية أقرب إلى نشاطك</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="arabic.css">
   <script src="config.js" defer></script>
-  <script src="app.js" defer></script>
+  <script src="app-ar.js" defer></script>
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Chams PME, accueil">
+    <a class="brand" href="#top" aria-label="شمس للمقاولات، الصفحة الرئيسية">
       <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="8"/><path d="M20 2v6M20 32v6M2 20h6M32 20h6M7.3 7.3l4.2 4.2m17 17 4.2 4.2m0-25.4-4.2 4.2m-17 17-4.2 4.2"/></svg></span>
       <span>chams<span class="brand-light">pme</span></span>
     </a>
-    <nav class="header-nav" aria-label="Navigation principale"><a href="#comment-ca-marche">Comment ça marche</a><a href="#pourquoi-chams">Pourquoi le solaire</a></nav>
-    <button class="button button-small button-outline header-cta" data-start>Faire une estimation <span aria-hidden="true">↗</span></button>
-    <button class="menu-toggle" id="menu-toggle" aria-label="Ouvrir le menu"><span></span><span></span></button>
+    <nav class="header-nav" aria-label="التنقل الرئيسي"><a href="#comment-ca-marche">كيف تعمل الخدمة</a><a href="#pourquoi-chams">لماذا الطاقة الشمسية</a></nav>
+    <a class="language-switch" href="fr.html" lang="fr">Français</a><button class="button button-small button-outline header-cta" data-start>احصلوا على تقدير <span aria-hidden="true">↗</span></button>
+    <button class="menu-toggle" id="menu-toggle" aria-label="فتح القائمة"><span></span><span></span></button>
   </header>
 
   <main id="top">
     <section class="hero" id="home-view">
       <div class="hero-copy">
-        <div class="eyebrow"><span class="eyebrow-dot"></span> L’énergie solaire, à votre échelle</div>
-        <h1>Votre toit peut<br>faire <em>plus.</em></h1>
-        <p class="hero-text">Découvrez le potentiel solaire de votre entreprise. Une première estimation claire, pensée pour votre activité au Maroc.</p>
-        <div class="hero-actions"><button class="button button-primary" data-start>Estimer mon projet solaire <span aria-hidden="true">→</span></button><span class="no-commitment"><span class="check-icon">✓</span> Gratuit · Sans engagement</span></div>
-        <div class="hero-proof"><div class="avatar-stack" aria-hidden="true"><span>H</span><span>C</span><span>A</span></div><span>Pour les entreprises qui veulent<br>maîtriser leur énergie.</span></div>
+        <div class="eyebrow"><span class="eyebrow-dot"></span> الطاقة الشمسية على مقاس مقاولتكم</div>
+        <h1>يمكن لسطحكم أن<br>يحقق <em>المزيد.</em></h1>
+        <p class="hero-text">اكتشفوا إمكانات الطاقة الشمسية لمقاولتكم. تقدير أولي واضح ومصمم ليناسب نشاطكم في المغرب.</p>
+        <div class="hero-actions"><button class="button button-primary" data-start>قدّروا مشروعكم الشمسي <span aria-hidden="true">→</span></button><span class="no-commitment"><span class="check-icon">✓</span> مجاناً · دون التزام</span></div>
+        <div class="hero-proof"><div class="avatar-stack" aria-hidden="true"><span>H</span><span>C</span><span>A</span></div><span>للمقاولات التي ترغب في<br>التحكم في استهلاك الطاقة.</span></div>
       </div>
-      <div class="hero-visual" aria-label="Illustration de panneaux solaires sur le toit d'une entreprise">
+      <div class="hero-visual" aria-label="رسم توضيحي لألواح شمسية على سطح مقاولة">
         <div class="sun-orb"><span></span></div>
-        <div class="visual-label label-top"><span class="pulse"></span> POTENTIEL SOLAIRE</div>
+        <div class="visual-label label-top"><span class="pulse"></span> الإمكانات الشمسية</div>
         <div class="roof-scene">
           <div class="skyline skyline-back"><i></i><i></i><i></i><i></i></div>
           <div class="sun-rays"></div>
@@ -47,53 +48,53 @@
           <div class="plant plant-one"><i></i><i></i><i></i><b></b></div><div class="plant plant-two"><i></i><i></i><i></i><b></b></div>
           <div class="ground"></div>
         </div>
-        <div class="visual-label label-bottom"><span class="sparkle">✳</span><span><b>Une énergie plus prévisible</b><small>À partir de votre profil de consommation</small></span><span class="label-arrow">↗</span></div>
-        <div class="visual-tag">SOLEIL + ENTREPRISE<br><b>Un duo qui a de l’avenir.</b></div>
+        <div class="visual-label label-bottom"><span class="sparkle">✳</span><span><b>طاقة أكثر قابلية للتوقع</b><small>بناءً على نمط استهلاككم</small></span><span class="label-arrow">↗</span></div>
+        <div class="visual-tag">الشمس + المقاولة<br><b>ثنائي واعد للمستقبل.</b></div>
       </div>
-      <div class="hero-bottom"><span>CONÇU POUR LES PME MAROCAINES</span><div class="hero-bottom-line"></div><a href="#comment-ca-marche">Découvrir le parcours <span>↓</span></a></div>
+      <div class="hero-bottom"><span>مصمم للمقاولات المغربية</span><div class="hero-bottom-line"></div><a href="#comment-ca-marche">اكتشفوا المراحل <span>↓</span></a></div>
     </section>
 
-    <section class="trust-strip" id="pourquoi-chams"><div><span class="trust-icon">01</span><p><b>Une estimation en quelques minutes</b><small>Quelques informations suffisent pour commencer.</small></p></div><div><span class="trust-icon">02</span><p><b>Des résultats faciles à comprendre</b><small>Puissance, budget et économies en un coup d’œil.</small></p></div><div><span class="trust-icon">03</span><p><b>Vous gardez la main</b><small>Demandez un devis uniquement si vous le souhaitez.</small></p></div></section>
+    <section class="trust-strip" id="pourquoi-chams"><div><span class="trust-icon">٠١</span><p><b>تقدير أولي في دقائق</b><small>تكفي بعض المعلومات للبدء.</small></p></div><div><span class="trust-icon">٠٢</span><p><b>نتائج واضحة وسهلة الفهم</b><small>القدرة والتكلفة والوفورات في لمحة.</small></p></div><div><span class="trust-icon">٠٣</span><p><b>القرار لكم</b><small>اطلبوا عرض سعر إذا رغبتم بذلك.</small></p></div></section>
 
-    <section class="how-section" id="comment-ca-marche"><div class="section-heading"><div class="eyebrow">SIMPLE COMME BONJOUR</div><h2>Trois étapes.<br><em>Un projet plus clair.</em></h2><p>Pas besoin d’être expert en énergie. Nous vous guidons, étape par étape.</p></div><div class="steps-preview"><article><span class="step-number">01</span><div class="step-art art-building">▤</div><h3>Parlez-nous de vous</h3><p>Votre activité, votre ville et quelques détails sur votre bâtiment.</p></article><article><span class="step-number">02</span><div class="step-art art-bill">▧</div><h3>Partagez votre consommation</h3><p>Une facture ou une estimation de votre dépense mensuelle suffit.</p></article><article><span class="step-number">03</span><div class="step-art art-sun">☼</div><h3>Découvrez votre potentiel</h3><p>Recevez une première estimation et choisissez la suite.</p></article><div class="steps-connector"></div></div><button class="button button-primary" data-start>Commencer mon estimation <span aria-hidden="true">→</span></button></section>
-    <section class="closing-cta"><div class="closing-sun">☼</div><div><div class="eyebrow">LE SOLEIL EST LÀ</div><h2>Et si votre toit<br>travaillait pour vous ?</h2></div><button class="button button-light" data-start>Voir mon potentiel solaire <span aria-hidden="true">→</span></button></section>
+    <section class="how-section" id="comment-ca-marche"><div class="section-heading"><div class="eyebrow">بكل بساطة</div><h2>ثلاث مراحل.<br><em>مشروع أوضح.</em></h2><p>لا تحتاجون إلى خبرة في الطاقة. سنرشدكم خطوة بخطوة.</p></div><div class="steps-preview"><article><span class="step-number">٠١</span><div class="step-art art-building">▤</div><h3>عرّفونا بمقاولتكم</h3><p>طبيعة نشاطكم ومدينتكم وبعض التفاصيل عن المبنى.</p></article><article><span class="step-number">٠٢</span><div class="step-art art-bill">▧</div><h3>أخبرونا عن استهلاككم</h3><p>تكفي فاتورة أو قيمة تقريبية لمصاريفكم الشهرية.</p></article><article><span class="step-number">٠٣</span><div class="step-art art-sun">☼</div><h3>اكتشفوا إمكاناتكم</h3><p>احصلوا على تقدير أولي واختاروا الخطوة التالية.</p></article><div class="steps-connector"></div></div><button class="button button-primary" data-start>ابدؤوا التقدير <span aria-hidden="true">→</span></button></section>
+    <section class="closing-cta"><div class="closing-sun">☼</div><div><div class="eyebrow">الشمس هنا</div><h2>ماذا لو أن سطحكم<br>يعمل لصالحكم؟</h2></div><button class="button button-light" data-start>اكتشفوا إمكاناتكم الشمسية <span aria-hidden="true">→</span></button></section>
   </main>
 
   <section id="estimator-view" class="estimator-shell hidden" aria-live="polite">
-    <div class="estimator-top"><a class="back-home" href="#top" id="exit-estimator"><span>←</span> Retour à l’accueil</a><span class="secure-note"><span>✳</span> Vos informations restent confidentielles</span></div>
+    <div class="estimator-top"><a class="back-home" href="#top" id="exit-estimator"><span>→</span>العودة إلى الصفحة الرئيسية</a><a class="language-switch" href="fr.html" lang="fr">Français</a><span class="secure-note"><span>✳</span>تبقى معلوماتكم سرية</span></div>
     <div class="estimator-layout">
-      <aside class="estimator-aside"><div class="eyebrow"><span class="eyebrow-dot"></span> CHAMS PME · SIMULATEUR</div><h1>Un premier pas<br>vers <em>le solaire.</em></h1><p>Répondez à quelques questions pour découvrir ce que votre toit pourrait apporter à votre entreprise.</p><div class="aside-note"><span class="aside-sun">☼</span><span><b>Simple et sans engagement</b><small>Comptez environ 2 minutes.</small></span></div><div class="aside-decoration">شمس</div></aside>
+      <aside class="estimator-aside"><div class="eyebrow"><span class="eyebrow-dot"></span>شمس للمقاولات · أداة التقدير</div><h1>خطوتكم الأولى<br>نحو <em>الطاقة الشمسية.</em></h1><p>أجيبوا عن بعض الأسئلة لاكتشاف ما يمكن أن يقدمه سطحكم لمقاولتكم.</p><div class="aside-note"><span class="aside-sun">☼</span><span><b>بكل بساطة ودون التزام</b><small>لن يستغرق الأمر سوى دقيقتين تقريباً.</small></span></div><div class="aside-decoration">شمس</div></aside>
       <div class="form-card" id="form-card">
-        <div class="progress-head"><span id="progress-label">ÉTAPE 1 SUR 3</span><span id="progress-percent">33%</span></div><div class="progress-track"><span id="progress-fill"></span></div><button type="button" class="demo-link" id="demo-fill">↗ &nbsp;Afficher un exemple complet prérempli <span>Données fictives</span></button>
+        <div class="progress-head"><span id="progress-label">المرحلة ١ من ٣</span><span id="progress-percent">33%</span></div><div class="progress-track"><span id="progress-fill"></span></div><button type="button" class="demo-link" id="demo-fill">↗ &nbsp;عرض مثال مكتمل مسبقاً <span>بيانات افتراضية</span></button>
         <form id="estimate-form" novalidate>
-          <div class="form-step active" data-step="1"><div class="form-heading"><span class="form-kicker">FAISONS CONNAISSANCE</span><h2>Votre entreprise,<br>en quelques mots.</h2><p>Pour adapter l’estimation à votre réalité.</p></div>
-            <label class="field-label" for="company">Nom de l’entreprise <span class="optional">FACULTATIF</span></label><input id="company" name="company" placeholder="Ex. Atelier Atlas" autocomplete="organization">
-            <div class="field-grid"><div><label class="field-label" for="sector">Secteur d’activité <span class="required">*</span></label><select id="sector" name="sector" required><option value="">Choisir un secteur</option><option>Hôtel / maison d’hôtes</option><option>Commerce</option><option>Restaurant / café</option><option>Boulangerie</option><option>Atelier</option><option>Petite industrie</option><option>Autre</option></select></div><div><label class="field-label" for="city">Ville <span class="required">*</span></label><input id="city" name="city" placeholder="Ex. Marrakech" required autocomplete="address-level2"></div></div>
-            <label class="field-label">Votre bâtiment <span class="required">*</span></label><div class="choice-row"><label class="choice"><input type="radio" name="building" value="Propriétaire" required><span>Je suis propriétaire</span></label><label class="choice"><input type="radio" name="building" value="Locataire"><span>Je suis locataire</span></label><label class="choice"><input type="radio" name="building" value="Autre"><span>Autre situation</span></label></div>
-            <label class="field-label" for="roof">Surface approximative de toiture <span class="optional">FACULTATIF</span></label><div class="input-with-unit"><input id="roof" name="roof" type="number" min="1" placeholder="Ex. 250"><span>m²</span></div>
-            <div class="form-error" role="alert"></div><button type="button" class="button button-primary button-full next-step">Continuer <span>→</span></button><div class="form-foot">Vos réponses servent uniquement à préparer cette estimation.</div>
+          <div class="form-step active" data-step="1"><div class="form-heading"><span class="form-kicker">لنتعرف على مقاولتكم</span><h2>مقاولتكم،<br>في كلمات قليلة.</h2><p>لنعدّ تقديراً يناسب وضعكم.</p></div>
+            <label class="field-label" for="company">اسم المقاولة <span class="optional">اختياري</span></label><input id="company" name="company" placeholder="مثال: ورشة الأطلس" autocomplete="organization">
+            <div class="field-grid"><div><label class="field-label" for="sector">مجال النشاط <span class="required">*</span></label><select id="sector" name="sector" required><option value="">اختاروا مجال النشاط</option><option>فندق / دار ضيافة</option><option>متجر</option><option>مطعم / مقهى</option><option>مخبزة</option><option>ورشة</option><option>صناعة صغيرة</option><option>أخرى</option></select></div><div><label class="field-label" for="city">المدينة <span class="required">*</span></label><input id="city" name="city" placeholder="مثال: مراكش" required autocomplete="address-level2"></div></div>
+            <label class="field-label">وضع المبنى <span class="required">*</span></label><div class="choice-row"><label class="choice"><input type="radio" name="building" value="مالك" required><span>أملكه</span></label><label class="choice"><input type="radio" name="building" value="مستأجر"><span>أستأجره</span></label><label class="choice"><input type="radio" name="building" value="أخرى"><span>وضع آخر</span></label></div>
+            <label class="field-label" for="roof">المساحة التقريبية للسطح <span class="optional">اختياري</span></label><div class="input-with-unit"><input id="roof" name="roof" type="number" min="1" placeholder="مثال: ٢٥٠"><span>م²</span></div>
+            <div class="form-error" role="alert"></div><button type="button" class="button button-primary button-full next-step">متابعة <span>→</span></button><div class="form-foot">تُستخدم إجاباتكم لإعداد هذا التقدير فقط.</div>
           </div>
-          <div class="form-step" data-step="2"><div class="form-heading"><span class="form-kicker">VOTRE ÉNERGIE AU QUOTIDIEN</span><h2>Parlons de votre<br>consommation.</h2><p>Une facture récente vous aidera à obtenir une estimation plus précise.</p></div>
-            <label class="field-label" for="bill">Votre facture moyenne par mois <span class="required">*</span></label><div class="input-with-unit"><input id="bill" name="bill" type="number" min="1" placeholder="Ex. 4 500" required><span>MAD / mois</span></div>
-            <label class="field-label" for="kwh">Consommation mensuelle <span class="optional">FACULTATIF</span></label><div class="input-with-unit"><input id="kwh" name="kwh" type="number" min="1" placeholder="Ex. 1 200"><span>kWh / mois</span></div><p class="field-hint">Vous la trouverez sur votre facture. Pas sous la main ? Laissez ce champ vide.</p>
-            <label class="field-label">Quand votre entreprise consomme-t-elle le plus ? <span class="required">*</span></label><div class="choice-row time-choices"><label class="choice"><input type="radio" name="schedule" value="day" required><span>☀️ &nbsp; Surtout le jour</span></label><label class="choice"><input type="radio" name="schedule" value="night"><span>☾ &nbsp; Surtout la nuit</span></label><label class="choice"><input type="radio" name="schedule" value="mixed"><span>◷ &nbsp; Répartie</span></label></div>
-            <label class="field-label" for="bill-file">Ajouter une facture <span class="optional">FACULTATIF</span></label><label class="file-drop" for="bill-file"><span class="file-icon">↑</span><span><b id="file-name">Choisir un fichier</b><small>PDF, JPG ou PNG · Le fichier reste sur cet appareil</small></span><input id="bill-file" name="bill-file" type="file" accept=".pdf,.jpg,.jpeg,.png,application/pdf,image/jpeg,image/png"></label>
-            <div class="form-error" role="alert"></div><div class="button-pair"><button type="button" class="button button-back previous-step">← Retour</button><button type="button" class="button button-primary next-step">Continuer <span>→</span></button></div><div class="form-foot">Votre facture est facultative et n’est envoyée à aucun service.</div>
+          <div class="form-step" data-step="2"><div class="form-heading"><span class="form-kicker">استهلاككم اليومي للطاقة</span><h2>لنتحدث عن<br>استهلاككم.</h2><p>ستساعدكم فاتورة حديثة في الحصول على تقدير أدق.</p></div>
+            <label class="field-label" for="bill">متوسط فاتورتكم الشهرية <span class="required">*</span></label><div class="input-with-unit"><input id="bill" name="bill" type="number" min="1" placeholder="مثال: ٤٥٠٠" required><span>درهم / شهر</span></div>
+            <label class="field-label" for="kwh">الاستهلاك الشهري <span class="optional">اختياري</span></label><div class="input-with-unit"><input id="kwh" name="kwh" type="number" min="1" placeholder="مثال: ١٢٠٠"><span>كيلوواط ساعة / شهر</span></div><p class="field-hint">ستجدونها في الفاتورة. إذا لم تكن متوفرة الآن، اتركوا الخانة فارغة.</p>
+            <label class="field-label">متى يكون استهلاك المقاولة أعلى؟ <span class="required">*</span></label><div class="choice-row time-choices"><label class="choice"><input type="radio" name="schedule" value="day" required><span>☀️ &nbsp; نهاراً غالباً</span></label><label class="choice"><input type="radio" name="schedule" value="night"><span>☾ &nbsp; ليلاً غالباً</span></label><label class="choice"><input type="radio" name="schedule" value="mixed"><span>◷ &nbsp; موزع على اليوم</span></label></div>
+            <label class="field-label" for="bill-file">إرفاق فاتورة <span class="optional">اختياري</span></label><label class="file-drop" for="bill-file"><span class="file-icon">↑</span><span><b id="file-name">اختيار ملف</b><small>PDF أو JPG أو PNG · يبقى الملف على هذا الجهاز</small></span><input id="bill-file" name="bill-file" type="file" accept=".pdf,.jpg,.jpeg,.png,application/pdf,image/jpeg,image/png"></label>
+            <div class="form-error" role="alert"></div><div class="button-pair"><button type="button" class="button button-back previous-step">→ رجوع</button><button type="button" class="button button-primary next-step">متابعة <span>→</span></button></div><div class="form-foot">إرفاق الفاتورة اختياري، ولن تُرسل إلى أي جهة.</div>
           </div>
-          <div class="form-step" data-step="3"><div class="form-heading"><span class="form-kicker">DERNIÈRE PETITE ÉTAPE</span><h2>Où vous<br>envoyer le résultat ?</h2><p>Vos coordonnées nous permettent de préparer votre estimation.</p></div>
-            <label class="field-label" for="fullname">Nom et prénom <span class="required">*</span></label><input id="fullname" name="fullname" placeholder="Ex. Salma El Mansouri" autocomplete="name" required>
-            <div class="field-grid"><div><label class="field-label" for="phone">Téléphone <span class="required">*</span></label><input id="phone" name="phone" type="tel" placeholder="06 12 34 56 78" autocomplete="tel" required></div><div><label class="field-label" for="email">E-mail <span class="required">*</span></label><input id="email" name="email" type="email" placeholder="vous@entreprise.ma" autocomplete="email" required></div></div>
-            <label class="consent"><input type="checkbox" id="consent" required><span>J’accepte d’être recontacté au sujet de cette estimation. <span class="required">*</span><small>Vos coordonnées restent dans ce prototype et ne sont transmises à aucun installateur.</small></span></label>
-            <div class="form-error" role="alert"></div><div class="button-pair"><button type="button" class="button button-back previous-step">← Retour</button><button type="submit" class="button button-primary">Voir mon estimation <span>→</span></button></div><div class="form-foot">En continuant, vous verrez une estimation indicative, sans engagement.</div>
+          <div class="form-step" data-step="3"><div class="form-heading"><span class="form-kicker">الخطوة الأخيرة</span><h2>إلى أين نرسل<br>نتيجة التقدير؟</h2><p>تساعدنا بيانات التواصل على إعداد تقديركم.</p></div>
+            <label class="field-label" for="fullname">الاسم الكامل <span class="required">*</span></label><input id="fullname" name="fullname" placeholder="مثال: سلمى المنصوري" autocomplete="name" required>
+            <div class="field-grid"><div><label class="field-label" for="phone">رقم الهاتف <span class="required">*</span></label><input id="phone" name="phone" type="tel" placeholder="06 12 34 56 78" autocomplete="tel" required></div><div><label class="field-label" for="email">البريد الإلكتروني <span class="required">*</span></label><input id="email" name="email" type="email" placeholder="nom@entreprise.ma" autocomplete="email" required></div></div>
+            <label class="consent"><input type="checkbox" id="consent" required><span>أوافق على التواصل معي بخصوص هذا التقدير. <span class="required">*</span><small>تبقى بياناتكم ضمن هذا النموذج التجريبي ولا تُرسل إلى أي شركة تركيب.</small></span></label>
+            <div class="form-error" role="alert"></div><div class="button-pair"><button type="button" class="button button-back previous-step">→ رجوع</button><button type="submit" class="button button-primary">عرض تقديري <span>→</span></button></div><div class="form-foot">بالمتابعة، ستظهر لكم نتيجة تقديرية غير ملزمة.</div>
           </div>
         </form>
       </div>
     </div>
-    <div class="estimator-footer"><span>CHAMS PME</span><span>Prototype de démonstration · Aucune donnée envoyée</span><span>MAROC · 2025</span></div>
+    <div class="estimator-footer"><span>CHAMS PME</span><span>نسخة تجريبية · لا تُرسل أي بيانات</span><span>المغرب · نسخة تجريبية</span></div>
   </section>
 
   <section id="result-view" class="result-shell hidden" aria-live="polite"></section>
   <div id="toast" class="toast" role="status"></div>
-  <footer class="site-footer"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">☼</span><span>chams<span class="brand-light">pme</span></span></a><span>Le solaire, à votre échelle.</span><span>Prototype de démonstration · Maroc</span></footer>
+  <footer class="site-footer"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">☼</span><span>chams<span class="brand-light">pme</span></span></a><span>الطاقة الشمسية على مقاسكم.</span><span>نموذج تجريبي · المغرب</span></footer>
 </body>
 </html>
